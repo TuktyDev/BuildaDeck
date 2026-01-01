@@ -84,7 +84,7 @@ function Fast() {
     } else {out += '<div class="' + basicelement + '">Using only ' + elementamount.count + ' ' + basicelement + ' cards' + '</div>';}
     
 
-    out += '<br><br><br><br><button class="click" onclick="Fast()">Redo</button>'
+    out += '<br><br><br><br><button class="click end" onclick="Fast()">Redo</button>'
     main.innerHTML = out
 }
 
@@ -161,6 +161,6 @@ function Daily(){
         } else {out += '<div class="' + basicelement + '">Using only ' + elementamount.count + ' ' + basicelement + ' cards' + '</div>';}
         
     
-        out += '<br><br><br><br><div>Todays Deck!</div>'
+        out += '<br><br><br><br><div class="end">Todays Deck!</div>'
         main.innerHTML = out
         }

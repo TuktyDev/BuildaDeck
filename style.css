@@ -213,6 +213,13 @@ footer {
         left: 15%;
         bottom: -25%;
     }
+    .end {
+        margin-top: -10%;
+    }
+    .cards {
+        opacity: 0.5;
+        width: 30%;
+    }
   }
 @media only screen and (max-height: 700px) {
     #fast,#slow{

@@ -75,12 +75,12 @@ const relics = [
     {name: "Lost Providence", img: "lost-providence-ptm1e"}
 ]
 const amount = [
-    {count: "0-10", num: 1},
+    {count: "0-10", num: 0},
     {count: "10-20", num: 1},
     {count: "20-30", num: 2},
-    {count: "30-40", num: 2},
-    {count: "40-50", num: 3},
-    {count: "50-60", num: 4}
+    {count: "30-40", num: 3},
+    {count: "40-50", num: 4},
+    {count: "50-60", num: 5}
 ]
 
 function mulberry32(count) {
