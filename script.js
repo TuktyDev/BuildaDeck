@@ -84,7 +84,7 @@ function Fast() {
     } else {out += '<div class="' + basicelement + '">Using only ' + elementamount.count + ' ' + basicelement + ' cards' + '</div>';}
     
 
-    out += '<br><br><br><br><button class="click end" onclick="Fast()">Redo</button>'
+    out += '<br><br><br><br><div class="end"><button class="click" onclick="Fast()">Redo</button></div>'
     main.innerHTML = out
 }
 
