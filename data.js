@@ -20,7 +20,7 @@ const champions = [
     {name: "Lorraine", element: "Crux", img: ["lorraine-blademaster-doa1e"]},
     {name: "Tristan", element: "Umbra", img: ["tristan-hired-blade-mrc", "tristan-grim-stalker-doa1e"]},
     {name: "Jin", element: "Exia", img: ["jin-zealous-maverick-amb"]},
-    {name: "Alice Chessman", element: "Norm", img: ["alice-trifles-royalty-rdo"]},
+    {name: "Alice Chessman", element: "Norm", img: ["alice-golden-queen-dtr"]},
     {name: "Alice Anomaly", element: "Umbra", img: ["alice-phantom-monarch-ptm"]},
     {name: "Merlin Mage", element: "Crux", img: ["merlin-memory-thief-doa1e"]},
     {name: "Silvie", element: "Tera", img: ["silvie-with-the-pack-doa1e"]},
