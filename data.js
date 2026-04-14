@@ -44,7 +44,7 @@ const championsyes3 = [
     {name: "Lorraine", element: "Crux", img: ["lorraine-crux-knight-doap", "lorraine-spirit-ruler-doa1e"]},
     {name: "Tristan", element: "Umbra", img: ["tristan-shadowdancer-rec-shd", "tristan-shadowreaver-mrc"]},
     {name: "Jin", element: "Exia", img: ["jin-undying-resolve-amb"]},
-    {name: "Alice Chessman", element: "Norm", img: ["alice-whims-monarch-ptm"]},
+    {name: "Alice Chessman", element: "Norm", img: ["alice-trifles-royalty-rdo"]},
     {name: "Alice Anomaly", element: "Umbra", img: ["alice-phantom-monarch-ptm"]},
     {name: "Merlin Mage", element: "Crux", img: ["merlin-kingslayer-ftc"]},
     {name: "Silvie", element: "Tera", img: ["silvie-slime-sovereign-rec-slm", "silvie-loved-by-all-doap", "silvie-earths-tune-doa1e"]},
