@@ -20,7 +20,7 @@ const champions = [
     {name: "Lorraine", element: "Crux", img: ["lorraine-blademaster-doa1e"]},
     {name: "Tristan", element: "Umbra", img: ["tristan-hired-blade-mrc", "tristan-grim-stalker-doa1e"]},
     {name: "Jin", element: "Exia", img: ["jin-zealous-maverick-amb"]},
-    {name: "Alice Chessman", element: "Norm", img: ["alice-whims-monarch-ptm"]},
+    {name: "Alice Chessman", element: "Norm", img: ["alice-trifles-royalty-rdo"]},
     {name: "Alice Anomaly", element: "Umbra", img: ["alice-phantom-monarch-ptm"]},
     {name: "Merlin Mage", element: "Crux", img: ["merlin-memory-thief-doa1e"]},
     {name: "Silvie", element: "Tera", img: ["silvie-with-the-pack-doa1e"]},
@@ -44,6 +44,8 @@ const championsyes3 = [
     {name: "Lorraine", element: "Crux", img: ["lorraine-crux-knight-doap", "lorraine-spirit-ruler-doa1e"]},
     {name: "Tristan", element: "Umbra", img: ["tristan-shadowdancer-rec-shd", "tristan-shadowreaver-mrc"]},
     {name: "Jin", element: "Exia", img: ["jin-undying-resolve-amb"]},
+    {name: "Alice Chessman", element: "Norm", img: ["alice-whims-monarch-ptm"]},
+    {name: "Alice Anomaly", element: "Umbra", img: ["alice-phantom-monarch-ptm"]},
     {name: "Merlin Mage", element: "Crux", img: ["merlin-kingslayer-ftc"]},
     {name: "Silvie", element: "Tera", img: ["silvie-slime-sovereign-rec-slm", "silvie-loved-by-all-doap", "silvie-earths-tune-doa1e"]},
     {name: "Zander", element: "Luxem", img: ["zander-corhazis-chosen-doa1e", "zander-blinding-steel-doap"]},
@@ -57,8 +59,6 @@ const championsyes3 = [
     {name: "Vanitas", element: "Wind", img: ["vanitas-dominus-rex-alc-alter"]}
 ]
 const championsno3 = [
-    {name: "Alice Chessman", element: "Norm", img: ["alice-whims-monarch-ptm"]},
-    {name: "Alice Anomaly", element: "Umbra", img: ["alice-phantom-monarch-ptm"]},
     {name: "Allen", element: "Norm", img: ["allen-beast-beckoner-doa1e"]},
     {name: "Polkhawk", element: "Fire", img: ["polkhawk-bombastic-shot-alc"]},
     {name: "Nico", element: "Water", img: ["nico-whiplash-allure-alc"]},
