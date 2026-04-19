@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 h1 {
     font-size: 72px;
@@ -62,29 +63,29 @@ img {
     left: 50%;
     width: 50%;
     height: 100vh;
-    
 }
+
 #fast>div, #slow>div{
-    margin-top: 45%;
-    font-size: 64px;
+    margin-top: 70%;
+    font-size: 200%;
     color: inherit;
 }
-#fast>img, #slow>img {
+#fast>img, #slow>img{
     z-index: -5;
     width: 100%;
     position: absolute; 
-    bottom: -65%;
+    top: 10vh;
     left: 0%;
 }
 footer {
     z-index: 24;
     position: fixed;
     bottom: 0%;
-    background-color: #121212;
+    background-color: #1212127f;
     color: #747474;
     width: 100%;
 }
-#fast:hover, #slow:hover {  
+#fast:hover, #slow:hover{  
     color: #3197db;
     top: -5%;
 }
@@ -127,8 +128,14 @@ footer {
 .Neos {
     color: khaki
 }
-.cards {
+.cards{
     opacity: 0.5;
+}
+.championcard {
+    opacity: 0.65;
+}
+.boons {
+    width: 15%;
 }
 #cardhold {
     width: 100%;
@@ -154,135 +161,264 @@ footer {
 }
 #daily {
     position: fixed;
+    left: 39%;
+    top: 60%;
     width: 25%;
-    left: 35%;
-    bottom: 25%;
-    font-size: 32px;
 }
-#daily>img {
-    z-index: -24;
-    width: 75%;
-    position: absolute;
-    left: 20%;
-}
-#daily:hover {  
-    top: 50%;
+#daily:hover {
+    top: 55%
 }
 #daily>div {
     transform: rotate(-15deg);
+    position: absolute;
+    bottom: 65%;
+    width: 100%;
 }
-.block{display: none;}
-@media only screen and (max-width: 1024px) {
-    #fast>img, #slow>img {
-        z-index: -5;
-        width: 200%;
-        position: absolute; 
-        bottom: 0%;
-        left: -35%;
+#daily>img {
+    width: 100%;
+}
+
+#bottom {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    pointer-events: none;
+}
+
+.wheels {
+    width: 75%;
+}
+.wheel0A {
+    right: 40%;
+    position: fixed;
+    animation: linear;
+    animation-iteration-count: 1;
+    animation-name: cardfinal;
+    animation-duration: 1.5s;
+}
+.wheel3 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-duration: 1.5s;
+}
+.wheel02 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-delay: 0.375s;
+    animation-duration: 1.5s;
+}
+.wheel01 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-delay: 0.75s;
+    animation-duration: 1.5s;
+}
+.wheel00 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-delay: 1.125s;
+    animation-duration: 1.5s;
+}
+.wheel2 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-delay: 0.375s;
+    animation-duration: 1.5s;
+}
+.wheel1 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-duration: 1.5s;
+}
+.wheel0 {
+    opacity: 0.5;
+    right: -100%;
+    position: fixed;
+    animation: linear infinite;
+    animation-name: cardswipe;
+    animation-delay: 0.375s;
+    animation-duration: 1.5s;
+}
+@keyframes cardswipe {
+    0% {
+      right: -100%;
     }
-    #fast>div {
-        margin-top: 45%;
-        position: absolute;
-        bottom: 55%;
-        left: 5%;
-        font-size: 150%;
-        color: inherit;
-        text-align: center;
-    }
-    #slow>div {
-        width: 75%;
-        margin-top: 45%;
-        position: absolute;
-        bottom: 55%;
-        left: 15%;
-        font-size: 150%;
-        color: inherit;
-        text-align: center;
-    }
-    #daily {
-        position: fixed;
-        width: 25%;
-        left: 35%;
-        bottom: 30%;
-        font-size: 32px;
-    }
-    #daily>img {
-        z-index: -24;
-        position: fixed;
-        width: 75%;
-        left: 15%;
-        bottom: -25%;
-    }
-    .end {
-        margin-top: -10%;
-    }
-    .cards {
-        opacity: 0.5;
-        width: 30%;
+    100% {
+      right: 100%;
     }
   }
-@media only screen and (max-height: 700px) {
-    #fast,#slow{
-        top: 5%;
+  @keyframes cardfinal {
+    0% {
+        right: -75%;
+    }
+    100% {
+        right: 40%;
+    }
+  }
+
+
+
+
+.block{display: none;}
+
+@media (orientation: portrait) {
+    #head {
+        width: 100%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2{
+        width: 100%;
+        font-size: 90%;
+    }
+    #head>img {
+        width: 50%;
+    }
+    #fast {
+        border-right: 2px solid #212121;
+        z-index: -5;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        height: 100vh;
+    }
+    #slow {
+        border-left: 2px solid #212121;
+        z-index: -5;
+        position: fixed;
+        top: 0%;
+        left: 50%;
+        width: 50%;
+        height: 100vh;
+    }
+    #daily {
+        left: 27%;
+        z-index: 1;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+    }
+    #fast>div, #slow>div{
+        margin-top: 125%;
+        font-size: 150%;
+        color: inherit;
+    }
+    #daily>div {
+        margin-top: 50%;
+        font-size: 125%;
+        color: inherit;
     }
     #fast>img{
         z-index: -5;
-        width: 150%;
-        position: fixed; 
-        left: -35%;
-        top: 25%;
-    }
-    #slow>img {
-        z-index: -5;
-        width: 150%;
-        position: fixed; 
-        left: 0%;
-        top: 25%;
-    }
-    #daily>img {
-        z-index: -24;
-        position: fixed;
-        width: 75%;
-        left: 15%;
-        top: 50vh;
-    }
-}
-@media only screen and (max-height: 750px ) and (min-width: 900px ) {
-    #fast>img, #slow>img {
-        z-index: -5;
-        width: 100%;
+        width: 200%;
         position: absolute; 
-        bottom: -50%;
+        top: 20vh;
+        left: -50%;
+    }
+    #slow>img{
+        z-index: -5;
+        width: 200%;
+        position: absolute; 
+        top: 20vh;
+        left: -25%;
+    }
+    #fast:hover, #slow:hover {  
+        color: #3197db;
+        top: -5%;
+    }
+    
+    #cardhold {
+        z-index: -24;
+        pointer-events: none;
+        display: flex;
+        position: absolute;
+    }
+    .cards {
+        width: 25%;
+        position: absolute  
+    }
+    .spirit{
+        z-index: 20;
         left: 0%;
     }
-    #fast>div {
-        left: 30%;
+    .relic{
+        z-index: 20;
+        right: 0%;
     }
-    #daily {
+    .championcard {
+        z-index: 24;
+        opacity: 0.65;
+        width: 65%;
+    }
+    #textheld {
+        font-size: 100%;
+    }
+    #bottom {
+        width: 100%;
+        text-align: center;
         position: fixed;
-        width: 25%;
-        height: 25%;
-        left: 35%;
-        bottom: 0%;
-        font-size: 32px;
+        bottom: 5%;
     }
-    #daily>img {
-        z-index: -24;
-        width: 75%;
-        position: absolute;
-        left: 20%;
-        top: 10%;
+    .wheels>img {
+        width: 50%;
+    }
+    .wheel0A {
+        right: 20%;
+        position: fixed;
+        animation: linear;
+        animation-iteration-count: 1;
+        animation-name: cardfinal;
+        animation-duration: 1.5s;
+    }
+    @keyframes cardfinal {
+        0% {
+            right: -75%;
+        }
+        100% {
+            right: 20%;
+        }
+      }
+      .boons {
+        width: 15%;
+        top: 75%;
+    }
+    #boon0 {
+        left: 1%;
+    }
+    #boon1 {
+        right: 1%;
     }
 }
-@media only screen and (max-width: 375px ){
+  @media only screen and (max-width: 375px ){
 
-#holder, #head {
-    display: none;
-}
-.block {
-    display: block;
-    text-align: center;
-    position: absolute;
-    bottom: 50%;
-}
-}
+    #holder, #head {
+        display: none;
+    }
+    .block {
+        display: block;
+        text-align: center;
+        position: absolute;
+        bottom: 50%;
+    }
+  }
