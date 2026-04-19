@@ -17,7 +17,7 @@ function Fastprerec() {
     document.getElementById("holder").innerHTML = '<br><br><button class="click" onclick="Fast(0)">Standard</button><br><br><button class="click" onclick="Fast(1)">Pantheon</button>'
 }
 function Slowprerec() {
-    document.getElementById("holder").innerHTML = '<br><br><button class="click" onclick="Slow(0)">Standard</button><br><br><button class="click" onclick="Slow(1)">Pantheon</button>'
+    document.getElementById("holder").innerHTML = '<br><br><button class="click" onclick="Slow(0)">Standard</button><br><br><button class="click" onclick="Slow(1)">Pantheon</button><br><br><H2>WARNING!  MOTION</h2>'
 
 }
 
