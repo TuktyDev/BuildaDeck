@@ -282,7 +282,6 @@ function Daily(){
                 out += '<div class="' + champion.element + '">' + levelcapped + '</div>';
                 out += '<div class="' + lesser.element + '">' + lesser.name + '</div>';
                 out += '<div class="' + greater.element + '">' + greater.name + '</div>';
-                out += '<div class="Norm">' + relic.name + '</div>';
 
                 out += '<div class="Norm">' + relic.name + '</div>';
                 
