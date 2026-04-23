@@ -121,7 +121,7 @@ function Fast(formy) {
     } else {out += '<div class="' + basicelement + '">Using only ' + elementamount.count + ' ' + basicelement + ' cards' + '</div>';}
     
     if (format == 0) {
-    out += '<br><br><br><br><div class="end"><button class="click" onclick="Fast(0)">Redo</button></div></div>'
+    out += '<br><br><br><div class="end"><button class="click" onclick="Fast(0)">Redo</button></div></div>'
     }
     if (format == 1) {
         out += '<br><br><div class="end"><button class="click" onclick="Fast(1)">Redo</button></div></div>'
